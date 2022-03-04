@@ -65,7 +65,9 @@ a{
 .container.column{
     width: 45%;
 }
-
+.main marquee{
+    color:red;
+}
 img{
     width: 30%;
     height: 500px;
