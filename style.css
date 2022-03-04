@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.active{
+    color:azure;
+}
+
+.container.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_toggle{
+    display: none;
+}
+
+header{
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px,rgba(0, 0, 0, 0.5) 0px,4px,6px, -2px;
+    position: sticky;
+    top:0;
+    z-index:99;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .logo{
+    font-size: 1.5rem;
+}
+
+.header .navigation{
+    list-style: none;
+    display: flex;
+}
+
+.header .navigation li{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    padding: 0.4rem;
+}
+
+.header .navigation li:hover{
+    border-bottom: 2px solid crimson;
+}
+
+.container.column{
+    width: 45%;
+}
+
+img{
+    width: 30%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.post-info{
+    margin: 1rem 0;
+}
+.post-info h2{
+    margin-left: 0.5rem;
+}
+.post-info span{
+    margin-left: 0.5rem;
+    color: gray;
+}
+.post-info p{
+    margin-left: 0.5rem;
+}
+.post-info h3{
+    margin-left: 0.5rem;
+}
+
+.post-info a{
+    color: red;
+}
+.post-info h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post{
+    background-color: white;
+    margin-top: 1rem;
+    box-shadow:rgba(0,0,0,0.1) 0px 10px 15px -3px,rgba(0, 0, 0, 0.5) 0px,4px,6px, -2px ;
+}
+footer{
+    margin-top: 3rem;
+    position: absolute;
+    background-color: white;
+    box-shadow:rgba(0,0,0,0.1) 0px 10px 15px -3px,rgba(0, 0, 0, 0.5) 0px,4px,6px, -2px  ;
+}
+.footerc p{
+    text-align: center;
+    padding: 1rem 0.875rem;
+}
